@@ -1,58 +1,80 @@
-Bug Reports - SauceDemo
-🐞 BUG-001 - Login error message unclear
-Title:
+# Bug Reports - SauceDemo
+
+## Project: SauceDemo QA Manual Testing
+
+---
+
+## 🐞 BUG-001 - Missing clear error message on failed login
+
+### Title:
 Login error message is not clear for invalid credentials
 
-Environment:
-Browser: Chrome
-OS: Windows / Mac
-URL: https://www.saucedemo.com
-Steps to Reproduce:
-Open login page
-Enter username: standard_user
-Enter wrong password: 123456
-Click Login
-Expected Result:
-A clear error message like: "Invalid username or password"
+### Environment:
+- Browser: Chrome
+- OS: Windows / Mac
+- URL: https://www.saucedemo.com
 
-Actual Result:
-Generic or unclear error message is displayed
+### Steps to Reproduce:
+1. Open login page
+2. Enter valid username: standard_user
+3. Enter invalid password: 123456
+4. Click Login button
 
-Severity:
+### Expected Result:
+A clear and user-friendly error message should appear, such as:
+"Username and password do not match any user in this service."
+
+### Actual Result:
+Generic error message is displayed without clear guidance.
+
+### Severity:
 Medium
 
-Priority:
+### Priority:
 High
 
-🐞 BUG-002 - Cart does not update correctly after refresh
-Steps to Reproduce:
-Login successfully
-Add product to cart
-Refresh the page
-Expected Result:
-Cart should still show the product
+---
 
-Actual Result:
-Cart becomes empty after refresh
+## 🐞 BUG-002 - Cart state not preserved after page refresh
 
-Severity:
+### Steps to Reproduce:
+1. Login successfully
+2. Add a product to cart
+3. Refresh the page
+
+### Expected Result:
+Cart should retain previously added items after refresh.
+
+### Actual Result:
+Cart becomes empty after page refresh.
+
+### Severity:
 High
 
-Priority:
+### Priority:
 High
 
-🐞 BUG-003 - UI misalignment on product page
-Steps to Reproduce:
-Login
-Open product list page
-Expected Result:
-All buttons and text properly aligned
+---
 
-Actual Result:
-Some UI elements appear misaligned
+## 🐞 BUG-003 - UI alignment issue on product page
 
-Severity:
+### Steps to Reproduce:
+1. Login successfully
+2. Navigate to product listing page
+
+### Expected Result:
+All UI elements should be properly aligned and responsive.
+
+### Actual Result:
+Some buttons and text appear misaligned depending on screen size.
+
+### Severity:
 Low
 
-Priority:
+### Priority:
 Low
+
+---
+
+## 🧠 Notes:
+All issues were identified during manual exploratory testing of core user flows.
