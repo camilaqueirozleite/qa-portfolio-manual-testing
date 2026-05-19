@@ -16,9 +16,9 @@ User is logged in and has at least one product in the cart.
 1. Go to cart
 2. Click "Checkout"
 3. Enter valid information:
-   - First Name: John
-   - Last Name: Doe
-   - Postal Code: 1000
+   - First Name: Camila   
+   - Last Name: Leite
+   - Postal Code: 4000
 4. Click "Continue"
 5. Click "Finish"
 
