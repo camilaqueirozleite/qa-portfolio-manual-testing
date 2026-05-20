@@ -1,14 +1,18 @@
 # QA Manual Testing Portfolio - SauceDemo
 
-## 📌 Project Overview
+## Project Overview
 
 This project simulates a real Manual QA Testing process for a demo e-commerce web application: SauceDemo.
 
-The objective of this project is to practice and demonstrate QA skills used in real software testing environments.
+The objective is to practice and demonstrate QA skills used in real software testing environments, including test planning, test case design, bug reporting, and evidence documentation.
 
----
+## Application Under Test
 
-## 🧪 Testing Scope
+**Application:** SauceDemo  
+**Website:** https://www.saucedemo.com/  
+**Type:** Demo e-commerce web application
+
+## Testing Scope
 
 The following functionalities were tested:
 
@@ -19,42 +23,12 @@ The following functionalities were tested:
 - Basic checkout flow
 - UI validation
 
----
+## Project Structure
 
-## 📂 Project Structure
-
-### 📁 test-plans
-Contains the test planning documentation for the application.
-
-### 📁 test-cases
-Contains manual test cases organized by functionality.
-
-### 📁 bug-reports
-Contains documented software defects identified during testing.
-
-### 📁 screenshots
-Contains visual evidence of test execution and observed behaviors.
-
----
-
-## 🛠️ QA Skills Demonstrated
-
-- Manual Testing
-- Functional Testing
-- UI Testing
-- Bug Reporting
-- Test Case Design
-- Test Planning
-- Exploratory Testing
-
----
-
-## 🎯 Goal of this Project
-
-Build a practical QA portfolio for Junior QA opportunities and improve software testing knowledge through hands-on practice.
-
----
-
-## 👩‍💻 Author
-
-Camila Leite
+```txt
+qa-portfolio-manual-testing/
+├── test-plans/
+├── test-cases/
+├── bug-reports/
+├── screenshots/
+└── README.md
